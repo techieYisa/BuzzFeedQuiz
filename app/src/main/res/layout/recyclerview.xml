@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quiz_itemview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp">
+    <ImageView
+        android:id="@+id/quiz_backgroundImage_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="275dp" />
+
+        <TextView
+            android:id="@+id/quiz_question_textview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Hello World!"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_gravity="center"
+        android:layout_width="125.5dp"
+        android:layout_height="50dp"
+        android:text="Disagree" />
+    <Button
+        android:id="@+id/option2"
+        android:layout_gravity="center"
+        android:layout_width="125.5dp"
+        android:layout_height="50dp"
+        android:text="Neutral" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_gravity="center"
+        android:layout_width="125.5dp"
+        android:layout_height="50dp"
+        android:text="Agree" />
+</LinearLayout>
+</LinearLayout>
